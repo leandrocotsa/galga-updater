@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-var galga_status = "a galga morreu"
+var galga_status = "A GALGA MORREU"
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json())
